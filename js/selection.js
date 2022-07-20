@@ -5,14 +5,17 @@ let box = document.getElementById(`box`);
 // show potato function help show potato and text if potato is selected
 function show_potato(details){
     box[`innerHTML`] = `<img src="images/potato.jpg" alt="potato"/>` + `<p>You have selected potato</p>`;
+    box[`innerHTML`] += `<a href = "index.html">Go Back</a>`;
 }
 // show tomato function help show tomato and text if tomato is selected
 function show_tomato(details){
     box[`innerHTML`] = `<img src="images/tomato.jpg" alt="tomato"/>` + `<p>You have selected tomato</p>`;
+    box[`innerHTML`] += `<a href = "index.html">Go Back</a>`;
 }
 // show cucumber function will show cucmber and text if cucumbr is selected
 function show_cucumber(details){
     box[`innerHTML`] = `<img src="images/cucumbers.jpg" alt="tomato"/>` + `<p>You have selected cucumber</p>`;
+    box[`innerHTML`] += `<a href = "index.html">Go Back</a>`;
 }
 // conditions for every cookie
 // if cookies value is potato then show potato function will get executed 
