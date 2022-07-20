@@ -20,7 +20,10 @@ function choose_tomato(details){
 function choose_cucumber(details){
     Cookies.set(`selection`, `cucumber`);
     location.href = `selection.html`;
-
+}
+// go function will take user to selection page with cookies still saved
+function go (details){
+    location.href = `selection.html`;
 }
 // pot button will grab buy1 and give it to event listener
 let pot_button = document.getElementById(`buy_1`);
@@ -31,3 +34,6 @@ tom_button.addEventListener(`click`,choose_tomato);
 // pot button will grab buy3 and give it to event listener
 let cuc_button = document.getElementById(`buy_3`);
 cuc_button.addEventListener(`click`,choose_cucumber);
+// go to will grab go to button and attach it to function go with event listener
+let go_to = document.getElementById(`go_to`);
+go_to.addEventListener(`click`,go);

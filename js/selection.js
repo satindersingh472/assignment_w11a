@@ -26,5 +26,5 @@ if(selection_value === `potato`){
     show_cucumber();
 } else {
     box[`innerHTML`]=`<p>Something must be added to see something here visit the link below to see items</p>`
-    location.href = `index.html`;
+    box[`innerHTML`] += `<a href = "index.html">Go Back</a>`;
 }
