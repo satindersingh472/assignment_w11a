@@ -1,0 +1,24 @@
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  width: 70%;
+  margin: 60px auto;
+}
+
+button {
+  font-size: 1.3rem;
+}
+
+div {
+  display: grid;
+  gap: 10px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+#box {
+  display: grid;
+  place-items: center;
+  margin: 60px auto;
+}
+#box img {
+  height: 300px;
+  width: 300px;
+}/*# sourceMappingURL=selection.css.map */

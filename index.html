@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <title>document</title>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
- <script src="js/app.js"> </script>
+  
+    <!-- content have all the images and buttons-->
+    <div id="content">
+          <!-- three button to choose from with images-->
+        <div>
+            <img src="images/potato.jpg" alt="potatoes">
+            <button id="buy_1">Add</button>
+        </div>
+        <div>
+
+            <img src="images/tomato.jpg" alt="tomato">
+            <button id="buy_2">Add</button>
+        </div>
+        <div>
+            <img src="images/cucumbers.jpg" alt="cucumbers">
+            <button id="buy_3">Add</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="js/app.js"> </script>
 </body>
+
 </html>
